@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#container{
+    width: 650px;
+    margin: 5% auto;
+}
+#form-content{
+    display: flex;
+    background-color: rgba(211, 209, 209, 0.233);
+    margin-top: -50px;
+    padding: 2px;
+    padding-top:5px;
+    border-radius: 1.5%;
+    border: 1.5px solid  rgba(197, 197, 197, 0.548);
+}
+header{
+    position: relative;
+    width:1545px;
+    margin-top: 80px;
+    padding: 50px;
+    text-align: center;
+    background-color: rgba(211, 209, 209, 0.233);
+    font-size: 40px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+nav{
+    border-radius: 2.5px;
+    flex: 1;
+    padding: 5px;
+}
+nav input{
+    width: 250px;
+    height: 28px;
+    margin: 5px;
+    margin-left:px;
+    border: 1.5px solid  rgba(197, 197, 197, 0.548);
+    border-radius: 2.5px;
+}
+aside textarea{
+    flex: 1;
+    min-width: 320px;
+    min-height: 160px;
+    padding: 5px;
+    margin-left: 25px;
+    margin-top: 5px;
+    margin-bottom: 13px;
+    border-radius: 2.5%;
+    border: 1.5px solid  rgba(197, 197, 197, 0.548);
+}
+footer{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+form button{
+    float: right;
+    background-color: rgba(120, 120, 253, 0.904);
+    border: none;
+    border-radius: 4%;
+    color: white;
+    padding: 5px 7px;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 7px;
+    margin-right: 20px;
+}
+button:hover{
+    cursor: pointer;
+}
+form p{
+    margin-left: 8px;
+}
+header p{
+    color:rgba(179, 179, 179, 0.829);
+}
+header p b{
+    color: rgba(20, 20, 20, 0.836);
+    font-size: 60px;
+    font-weight: 300;
+}
+nav p{
+    font-weight: bold;
+}
+input::placeholder{
+    color: rgba(179, 179, 179, 0.829);
+}
+input:actice{
+    border-color: rgba(197, 197, 197, 0.548);
+}
+
+aside p{
+    margin-left: 25px;
+    font-weight: bold;
+}
+footer :first-child{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+footer :nth-child(2){
+    position: relative;
+    left: 155px;
+    width: 330px;
+    word-spacing: 80px;
+    font-size: 13px;
+    color: rgb(123, 123, 255);
+    border-top: 1px solid rgba(211, 209, 209, 0.233);
+}
